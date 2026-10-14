@@ -13,3 +13,15 @@
 * If any question arises, please feel free to contact me at discussion forum.
 * I am just a learner and I am open to suggestions and feedback.
 * You can also contact me with Burmese language.
+
+
+* **Factorial with recursion algorithm** *
+* In recursion , we just remember the most important 2 cases.
+* Base case and Recursive case
+* Base case carry out for ending the looping.
+* Recursive case carry out the operation according to our goal.
+* If we miss these cases , our recursive function may be infinite looping and error.
+* * If any question arises, please feel free to contact me at discussion forum.
+* I am just a learner and I am open to suggestions and feedback.
+* You can also contact me with Burmese language.
+
