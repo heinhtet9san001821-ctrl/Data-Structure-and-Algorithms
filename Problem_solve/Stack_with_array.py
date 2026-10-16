@@ -36,4 +36,4 @@ class Stack:
 #If we want the one, we can't get from the bottom or middle.We only get from the top of stack.
 #Based on these concept, we could understand the workflow of stack.
 #For beginner, before trying this, it is better if you deeply understand in Python OOPs ,
- #List indexing , Function ,Getter and setter methods, return ,True False None usage.
+ #List indexing , Function ,Getter and setter methods, return, True False None usage.
