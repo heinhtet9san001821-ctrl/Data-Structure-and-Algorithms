@@ -19,10 +19,14 @@ class LinkedList:#The whole controller of the linked system
     def pop(self):#Removing the last item from the stack
         if self.is_empty():
             print("The stact is empty!")
+            return None
 
         removed_item=self.top.data
         self.top=self.top.next
         return removed_item
 
     def peek(self):#Viewing the top item
-        return self.top.data             
+        if self.is_empty():
+            raise IndexError("Cannot peek into an empty stack")
+
+        return self.top.data
