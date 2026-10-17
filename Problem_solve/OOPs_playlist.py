@@ -17,3 +17,14 @@ class Playlist:
     def show_all_song(self):
         return self.songs
 
+Album1=Playlist("Ye Lay")    
+print(Album1.show_playlist_name())
+
+Album1.add_song_to_list("My blank")
+Album1.add_song_to_list("Fairy")
+Album1.add_song_to_list("Don't worry!")
+print(Album1.show_all_song())
+
+Album1.remove_song_from_list("Fairy")
+
+print(Album1.show_all_song())
